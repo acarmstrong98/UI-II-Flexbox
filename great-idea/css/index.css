@@ -54,13 +54,209 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'helvetica', sans-serif;
+	font-size: 18px;
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	font-family: 'impact', sans-serif;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+	width:1100px;
+	margin: 20px auto;
+}
+
+h2 {
+	font-size:30px;
+}
+
+nav {
+	display:flex;
+	justify-content: space-around;
+	width:900px;
+}
+
+nav a {
+	display:flex;
+	color:grey;
+	text-decoration:none;
+	
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+.logo {
+	float:right;
+	position: relative;
+	bottom:30px;	
+	
+}
+
+headimg {
+	position:relative;
+	top:50px;
+	left:200px;
+}
+
+h1 {
+	font-size:80px;
+	display:inline-block;
+	width:300px;
+	position: relative;
+	left:200px;
+	bottom:50px;
+	text-align: center;	
+	
+}
+
+button {
+	position:relative;
+	right:20px;
+	padding:10px;
+	width: 160px;
+	border: 2px solid black;
+}
+
+.section1 {
+	display:flex;
+	justify-content: center;
+
+}
+
+article.features {
+
+}
+
+article.about {
+
+}
+
+.section2 {
+	display:flex;
+	justify-content: center;
+	
+}
+
+article.services {
+	
+
+}
+
+article.product {
+
+}
+
+article.vision {
+
+}
+
+.middle-img {
+	position: relative;
+	left: 110px;
+	top:0px;
+}
+
+contactinfo{
+	position:relative;
+	left:40px;
+	display:block;
+	height:160px;
+	margin:60px 0px 20px 0px;
+
+}
+
+.home {
+	display:block;
+	text-align:center;
+	top: 80px;
+	height: 60px;
+}
+
+/* services page */
+
+.services-header-img {
+	display:flex;
+	justify-content: center;
+	position:relative;
+	width: 1100px;
+}
+
+.service {
+	display:flex;
+	position: relative;
+	top:18px;
+	left:0px;
+	font-size:40px;
+	padding: 20px 0px;
+}
+
+.body {
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.body article {
+	width:500px;
+	padding:20px;
+	margin: 20px;
+	border: 1px solid black;
+}
+
+.body a {
+	display:flex;
+	width:160px;
+	margin: 20px 0px;
+	padding: 10px 0px;
+	font-size: 16px;
+	color:black;
+	text-decoration: none;
+	justify-content: center;
+	border: 1px solid black;
+	border-radius: 15%;
+}
+
+.fact h2 {
+	padding:0px;
+}
+
+.fact p {
+	display:flex;
+	padding:0px;
+	width:500px;
+}
+
+.services-info-img {
+	position:flex;
+	width:500px;
+}
+
+ul {
+	width:500px;
+	padding: 0px 12px;
+	list-style-type: square;
+}
+
+li {
+	padding: 20px 0px 0px 0px;
+	width:500px;
+
+}
+
+.facts {
+	height:450px;
+	display:flex;
+	flex-direction:column;
+	flex-wrap:wrap;
+}
+
+footer {
+	display:flex;
+	justify-content: center;
+}
